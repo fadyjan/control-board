@@ -3,21 +3,23 @@
 }
 
 .QuestionCardWrapper{
-    color: white;
+    color:  rgb(0 0 0 / 54%);;
     cursor: pointer;
     font-size: 100%;
     letter-spacing: 1px;
     width: 90%;
     height: 10%;
-    background-color: #141d2f;
+    background-color: #f6f8ff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center ;
+    font-weight: bold;
 }
 
 .QuestionCardWrapper > label{
     cursor: pointer;
+    width: max-content;
 }
