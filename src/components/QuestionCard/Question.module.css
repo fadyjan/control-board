@@ -1,0 +1,23 @@
+.QuestionCardWrapper:first-child {
+    margin-top: 20px;
+}
+
+.QuestionCardWrapper{
+    color: white;
+    cursor: pointer;
+    font-size: 100%;
+    letter-spacing: 1px;
+    width: 90%;
+    height: 10%;
+    background-color: #141d2f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+}
+
+.QuestionCardWrapper > label{
+    cursor: pointer;
+}
