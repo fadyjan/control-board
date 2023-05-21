@@ -1,0 +1,15 @@
+.Avatars{
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.MuiListItem-root {
+    height: 20% !important;
+
+}
+
+.MuiList-root{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
