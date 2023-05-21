@@ -20,7 +20,7 @@ const DepartmentWrapper = () => {
         exclusive
         onChange={handleChange}
         aria-label="Platform"
-        color='error'
+        color='primary'
       >
         {DepartmentArray.map((deparment)=>{
             return (
