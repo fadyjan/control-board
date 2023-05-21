@@ -14,7 +14,7 @@ This is a React project called **[Control Board]**.
 https://control-board.vercel.app/
 
 ## Project Description
-Simple Board that allows the team to descripe issues with simple steps, They area able to chooise between set of question each question will show set of selections on the right side to select from 
+Simple Board that allows the team to descripe issues with simple steps, They are able to chooise between set of questions each question will show set of selections on the right side to select from 
 
 
 ## Components Tree
