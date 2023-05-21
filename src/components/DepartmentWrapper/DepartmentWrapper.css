@@ -1,0 +1,16 @@
+.MuiToggleButtonGroup-root{
+justify-content: space-around !important;
+align-items: center !important;
+display: flex !important;
+flex-wrap: wrap !important;
+height: 100%;
+font-weight: 900;
+}
+
+
+.ToggleDepartmentButtons{
+    width: 90% !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+
+}
