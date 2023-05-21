@@ -1,5 +1,6 @@
 #AnswersMenu {
   background-color: #fefefe;
+  overflow: auto;
   flex-basis: 60%;
   height: 95%;
   border-radius: 18px;
@@ -10,4 +11,5 @@
     flex-basis: 60%;
     width: 95%;
   }
+
 }

@@ -5,6 +5,7 @@ display: flex !important;
 flex-wrap: wrap !important;
 height: 100%;
 font-weight: 900;
+overflow: auto !important;
 }
 
 

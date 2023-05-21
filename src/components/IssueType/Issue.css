@@ -1,6 +1,5 @@
 .IssueToggleLabels{
-    color: black;
-    margin: 10px;
+  color: rgb(0 0 0 / 54%);    margin: 10px;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -25,6 +24,8 @@
    */
   
   .switch {
+    cursor: pointer;
+
     display: inline-block;
     font-size: 19px; /* 1 */
     height: 4rem;
@@ -36,6 +37,8 @@
   }
   
   .switch div {
+    cursor: pointer;
+
     height: 3em;
     width: 2.7em;
     border-radius: 2em;
