@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { BoardProvider } from "./context/BoardProvider";
+import QuestionsMenu from './components/QuestionsMenu/QuestionsMenu'
+import ChoicesWrapper from './components/ChoicesWrapper/ChoicesWrapper'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BoardProvider>
+
+      <div id="Wrapper">
+        <QuestionsMenu></QuestionsMenu>
+        <ChoicesWrapper></ChoicesWrapper>
+      </div>
+    </BoardProvider>
   );
 }
 
